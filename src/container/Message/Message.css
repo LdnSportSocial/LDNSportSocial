@@ -1,6 +1,6 @@
 .landing {
   font-family: var(--font-base);
-  z-index: 100;
+  z-index: 1;
   background-color: rgba(0, 0, 0, 0.973);
   width: 460px;
   height: 580px;
