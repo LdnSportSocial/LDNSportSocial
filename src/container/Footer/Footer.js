@@ -8,6 +8,10 @@ const Footer = () => (
       <div className='app__footer-links_logo'>
         <img src={images.LDNlogo} alt='app_logo' />
         <p>LDN Sport Social Limited</p>
+        <p>Unit 1, Kennet House, 8 Enterprise Way</p>
+        <p>London SW18 1GF UK</p>
+        <p>Company Registration No: 14487021</p>
+        <p>VAT Reg No. 430084532</p>
       </div>
       <div className='app__footer-links_div'>
         <h4>Links</h4>
