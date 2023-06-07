@@ -18,7 +18,7 @@ const Header = () => {
           {Object.entries(images1).map(([key, value], index) => (
             <>
               <img src={value} alt={key} key={key} />
-              {index % 2 === 1 && (
+              {index % 3 === 1 && (
                 <img src={slogan} alt='slogan' key={key + '-slogan'} />
               )}
             </>

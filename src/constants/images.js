@@ -23,6 +23,10 @@ import gallery22 from '../assets/gallery22.jpg';
 import gallery23 from '../assets/gallery23.jpg';
 import gallery24 from '../assets/gallery24.jpg';
 import gallery25 from '../assets/gallery25.jpg';
+import gallery26 from '../assets/gallery26.jpg';
+import gallery27 from '../assets/gallery27.jpg';
+import gallery28 from '../assets/gallery28.jpg';
+import gallery29 from '../assets/gallery29.jpg';
 import LDNlogo from '../assets/LDNlogo.png';
 import slogan from '../assets/slogan.png';
 
@@ -52,6 +56,10 @@ const images = {
   gallery23,
   gallery24,
   gallery25,
+  gallery26,
+  gallery27,
+  gallery28,
+  gallery29,
   LDNlogo,
   slogan,
 };
