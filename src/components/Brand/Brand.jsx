@@ -6,7 +6,7 @@ const Brand = () => {
   return (
     <div className='app__brand section__padding' id='brand'>
       <div>
-        <img src={logo1} alt='logo1' />
+        <img id='village_hotels' src={logo1} alt='logo1' />
       </div>
       <div>
         <img className='brand_images' src={logo2} alt='logo2' />

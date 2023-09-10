@@ -1,6 +1,13 @@
 import React from 'react';
 import { images } from '../../constants';
 import './Footer.css';
+import {
+  FaTiktok,
+  FaInstagram,
+  FaFacebook,
+  FaTwitter,
+  FaLinkedin,
+} from 'react-icons/fa';
 
 const Footer = () => (
   <div className='app__footer section__padding'>
@@ -20,21 +27,45 @@ const Footer = () => (
           target='_blank'
           rel='noopener noreferrer'
         >
-          <p>Twitter</p>
+          <p>
+            <FaTwitter />- Twitter
+          </p>
         </a>
         <a
           href='https://www.facebook.com/profile.php?id=100088593576706'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <p>Facebook</p>
+          <p>
+            <FaFacebook />- Facebook
+          </p>
         </a>
         <a
           href='https://www.instagram.com/ldn.sport.social/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <p>Instagram</p>
+          <p>
+            <FaInstagram />- Instagram
+          </p>
+        </a>
+        <a
+          href='https://www.tiktok.com/@ldnsportsocial'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <p>
+            <FaTiktok />- TikTok
+          </p>
+        </a>
+        <a
+          href='https://www.linkedin.com/company/ldn-sport-social/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <p>
+            <FaLinkedin />- LinkedIn
+          </p>
         </a>
       </div>
       <div className='app__footer-links_div'>

@@ -3,6 +3,7 @@ import './Contact.css';
 
 const Contact = () => (
   <div className='app__cta' id='contact'>
+    <script async src='https://www.tiktok.com/embed.js'></script>
     <div className='app__cta-content'>
       <p>
         Are you ready to connect with millions of sports fans? Contact LDN Sport
