@@ -36,12 +36,20 @@ import gallery35 from '../assets/gallery35.jpg';
 import gallery36 from '../assets/gallery36.jpg';
 import gallery37 from '../assets/gallery37.jpg';
 import gallery38 from '../assets/gallery38.jpg';
+import gallery39 from '../assets/gallery39.jpg';
+import gallery40 from '../assets/gallery40.jpg';
+import gallery41 from '../assets/gallery41.jpg';
+import gallery42 from '../assets/gallery42.jpg';
 import LDNlogo from '../assets/LDNlogo.png';
 import slogan from '../assets/slogan.png';
 
 const images = {
+  gallery42,
+  gallery41,
   gallery38,
   gallery37,
+  gallery40,
+  gallery39,
   gallery36,
   gallery35,
   gallery34,

@@ -1,13 +1,8 @@
 import React from 'react';
 import { images } from '../../constants';
 import './Footer.css';
-import {
-  FaTiktok,
-  FaInstagram,
-  FaFacebook,
-  FaTwitter,
-  FaLinkedin,
-} from 'react-icons/fa';
+import { FaTiktok, FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => (
   <div className='app__footer section__padding'>
@@ -28,7 +23,7 @@ const Footer = () => (
           rel='noopener noreferrer'
         >
           <p>
-            <FaTwitter />- Twitter
+            <FaXTwitter />- X
           </p>
         </a>
         <a
